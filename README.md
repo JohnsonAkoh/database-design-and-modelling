@@ -1,4 +1,4 @@
-# MIVA MIT Academic Portfolio 1
+# MIVA MIT academic portfolio 1
 ## Database Design and Modelling
 
 **Programme:** Master of Information Technology (MIT)  
