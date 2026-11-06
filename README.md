@@ -3,6 +3,7 @@
 
 **Programme:** Master of Information Technology (MIT)  
 **Institution:** MIVA Open University 
+
 **Specialisation:** Information Technology Management  
 **Assessment:** Academic Portfolio 1 – Database Design and Modelling 
 
