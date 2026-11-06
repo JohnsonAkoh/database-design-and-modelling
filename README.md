@@ -18,19 +18,27 @@ Database Administration Tool: pgAdmin
 
 ## 1. Project Overview
 
-This project demonstrates the application of database design and modelling principles through the analysis, design, and development of a relational database system based on a selected case study.
+This project demonstrates the application of database design and modelling principles 
+through the analysis, design, and development of a relational database system based on
+a selected case study.
 
-The project focuses on translating real-world information management requirements into a structured database model that supports data integrity, consistency, efficiency, and effective data retrieval.
+The project focuses on translating real-world information management requirements into
+a structured database model that supports data integrity, consistency, efficiency, and 
+effective data retrieval.
 
-It covers the database development process, from requirements analysis and conceptual modelling to logical database design, relational schema development, and normalisation.
+It covers the database development process, from requirements analysis and conceptual 
+modelling to logical database design, relational schema development, and normalisation.
 
 ## 2. Problem Statement
 
-Organisations require reliable database systems to manage, organise, retrieve, and maintain information efficiently.
+Organisations require reliable database systems to manage, organise, retrieve,
+and maintain information efficiently.
 
-Poorly designed databases can result in data redundancy, inconsistent records, update anomalies, and difficulties in retrieving accurate information.
+Poorly designed databases can result in data redundancy, inconsistent records, 
+update anomalies, and difficulties in retrieving accurate information.
 
-This project addresses these challenges by developing a structured relational database model based on the selected case study.
+This project addresses these challenges by developing a structured relational 
+database model based on the selected case study.
 
 ## 3. Project Objectives
 
@@ -49,9 +57,12 @@ The major objectives are to:
 
 **Selected Case Study:** [Insert your approved case study title]
 
-This section describes the selected organisation or business scenario, its operational activities, information management requirements, and the database challenges that the proposed system is designed to address.
+This section describes the selected organisation or business scenario,
+its operational activities, information management requirements, and the
+database challenges that the proposed system is designed to address.
 
-The case study provides the foundation for identifying database entities, attributes, relationships, and business rules.
+The case study provides the foundation for identifying database entities, 
+attributes, relationships, and business rules.
 
 ## 5. Database Design and Modelling Methodology
 
@@ -81,7 +92,8 @@ The following deliverables constitute the assessment portfolio:
 
 ## 7. Entity Relationship Diagram (ERD)
 
-This section presents the conceptual database model, illustrating the identified entities, their attributes, and the relationships between them.
+This section presents the conceptual database model, illustrating the identified 
+entities, their attributes, and the relationships between them.
 
 **ER Diagram:**
 
@@ -102,7 +114,8 @@ The schema demonstrates how the conceptual database model is translated into rel
 
 ## 9. Database Normalisation
 
-Normalisation is applied to improve database organisation, minimise unnecessary data duplication, and prevent insertion, update, and deletion anomalies.
+Normalisation is applied to improve database organisation, minimise unnecessary 
+data duplication, and prevent insertion, update, and deletion anomalies.
 
 The project examines the following normalisation stages:
 
@@ -168,9 +181,12 @@ Upon completion, this project is expected to demonstrate the ability to:
 
 ## 13. Academic Integrity
 
-This portfolio represents academic work undertaken as part of the Master of Information Technology programme at MIVA Open University.
+This portfolio represents academic work undertaken as part of the 
+Master of Information Technology programme at MIVA Open University.
 
-All database models, diagrams, SQL scripts, explanations, and supporting documentation are intended to demonstrate the author's understanding and practical application of database design and modelling principles.
+All database models, diagrams, SQL scripts, explanations, and supporting
+documentation are intended to demonstrate the author's understanding and 
+practical application of database design and modelling principles.
 
 ---
 
