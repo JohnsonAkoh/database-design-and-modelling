@@ -77,92 +77,85 @@ The project focuses on the design and implementation of the relational database.
 
 ## 7. Major Database Entities
 
-The proposed database consists of eight principal entities.
+The proposed Student Management System consists of eight principal entities.
 
 ### 7.1 Departments
 
 Stores information about the academic departments within the institution.
 
-Examples of attributes include:
-- department_id
+Attributes:
+- department_id (Primary Key)
 - department_name
 
 ### 7.2 Students
 
 Stores students' personal and academic registration information.
 
-Examples of attributes include:
-- student_id
-- first_name
-- last_name
-- email
-- gender
-- date_of_birth
-- department_id
+Attributes:
+- student_id (Primary Key)
+- student_name
+- email (Unique)
+- department_id (Foreign Key)
 
 ### 7.3 Lecturers
 
 Stores information about academic staff responsible for teaching courses.
 
-Examples of attributes include:
-- lecturer_id
-- first_name
-- last_name
-- email
-- department_id
+Attributes:
+- lecturer_id (Primary Key)
+- lecturer_name
+- email (Unique)
+- department_id (Foreign Key)
 
 ### 7.4 Courses
 
 Stores information about courses offered by academic departments.
 
-Examples of attributes include:
-- course_id
-- course_code
+Attributes:
+- course_code (Primary Key)
 - course_title
-- credit_unit
-- department_id
+- credit_units
+- department_id (Foreign Key)
 
 ### 7.5 Semesters
 
 Stores information about the academic semesters organised by the institution.
 
-Examples of attributes include:
-- semester_id
+Attributes:
+- semester_id (Primary Key)
 - semester_name
-- academic_year
-- start_date
-- end_date
+- academic_session
 
 ### 7.6 Course Offerings
 
 Represents courses scheduled for delivery during specific academic semesters and assigned to lecturers.
 
-Examples of attributes include:
-- offering_id
-- course_id
-- lecturer_id
-- semester_id
+Attributes:
+- offering_id (Primary Key)
+- course_code (Foreign Key)
+- semester_id (Foreign Key)
+- lecturer_id (Foreign Key)
 
 ### 7.7 Enrollments
 
 Records students' registration for specific course offerings.
 
-Examples of attributes include:
-- enrollment_id
-- student_id
-- offering_id
+Attributes:
+- enrollment_id (Primary Key)
+- student_id (Foreign Key)
+- offering_id (Foreign Key)
 - enrollment_date
 
 ### 7.8 Results
 
-Stores the academic results associated with student course enrolments.
+Stores academic results associated with student course enrolments.
 
-Examples of attributes include:
-- result_id
-- enrollment_id
+Attributes:
+- result_id (Primary Key)
+- enrollment_id (Foreign Key)
 - score
 - grade
-
+  
 ## 8. Business Rules and Database Relationships
 
 The following business rules guide the database design:
