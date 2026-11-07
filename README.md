@@ -116,6 +116,7 @@ The following deliverables constitute the assessment portfolio:
 | Project Report | Consolidated academic documentation |
 
 ## 7. Entity Relationship Diagram (ERD)
+(Student Management System ER Diagram](02-er-diagram/er-diagram.png)
 
 This section presents the conceptual database model, illustrating the identified 
 entities, their attributes, and the relationships between them.
