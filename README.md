@@ -116,74 +116,7 @@ The following deliverables constitute the assessment portfolio:
 | Project Report | Consolidated academic documentation |
 
 ## 7. Entity Relationship Diagram (ERD)
-
-The diagram below illustrates the eight entities, their attributes, primary keys, foreign keys, and relationships in the Student Management System.
-
-```mermaid
-erDiagram
-    DEPARTMENTS {
-        int department_id PK
-        varchar department_name
-    }
-
-    STUDENTS {
-        int student_id PK
-        varchar student_name
-        varchar email UK
-        int department_id FK
-    }
-
-    LECTURERS {
-        int lecturer_id PK
-        varchar lecturer_name
-        varchar email UK
-        int department_id FK
-    }
-
-    COURSES {
-        varchar course_code PK
-        varchar course_title
-        int credit_units
-        int department_id FK
-    }
-
-    SEMESTERS {
-        int semester_id PK
-        varchar semester_name
-        varchar academic_session
-    }
-
-    COURSE_OFFERINGS {
-        int offering_id PK
-        varchar course_code FK
-        int semester_id FK
-        int lecturer_id FK
-    }
-
-    ENROLLMENTS {
-        int enrollment_id PK
-        int student_id FK
-        int offering_id FK
-        date enrollment_date
-    }
-
-    RESULTS {
-        int result_id PK
-        int enrollment_id FK
-        decimal score
-        varchar grade
-    }
-
-    DEPARTMENTS ||--o{ STUDENTS : has
-    DEPARTMENTS ||--o{ LECTURERS : employs
-    DEPARTMENTS ||--o{ COURSES : offers
-    COURSES ||--o{ COURSE_OFFERINGS : scheduled_as
-    SEMESTERS ||--o{ COURSE_OFFERINGS : contains
-    LECTURERS ||--o{ COURSE_OFFERINGS : teaches
-    STUDENTS ||--o{ ENROLLMENTS : registers
-    COURSE_OFFERINGS ||--o{ ENROLLMENTS : receives
-    ENROLLMENTS ||--o| RESULTS : generates
-
+https://mermaid.live/edit#pako:eNqtVV2vojAQ_Sukz2pEvIp92yhuNn7dgL5sSEgDIzaB1rTl5t5V__sWryjKR7LJ8kQ7Z2ZOp3OmJxTyCBBGIGaUxIKkvvCZob-Z8_7D3a6c9dYzTsVm_lGmjAiORKgUmApoZLwvyvYPIsIDEWUMIykUkEvx4213s_roUmVRa-gCUI5btkNKaGLsFu2054sKp6Uz3e5cx60hlUCoMgGimdUd8d9pTTc713NeSBVRQ54JCUF-jw3EbghFVQKvuUMBEVVBxqiS_8zLc1aOt60tl4QUpGor1x3RVC4SkghSGgYSpKScNZQl2Mznjvtr_bOGBd_vQVAWN7MoV2--aDtF1VpuiZrqOGt3s1w2KAiY4ElSr6AXDVQTl4_1bI2IgnLsfF0h5jrebllHSoDMkgZCz4RfskJIU5IYMuSi9ir1YImeedSNmfO52-Wnx2DAxoHIFuBDrVhr65jwrzZ0ISL8XT75Kq4nWKmpsD7WAaIsgSh40Hm0frNfyJkilMnqdGn2UUB0NlkZkjePck9hfV8xzdtTNiqiwS0E-vFIUrZeHc73FsFGDAyE7qIbGnVQLGiEsBIZdFAKQg81vUSn3OojddCS8RHWv3qyZJ_dkCdc-MhnF-16JOw352nhLXgWHxDek0TqVXbMu_X2DN13BbAIxJRnTCFsm9cYCJ_QJ8KDyajXN0emPRi8WUPT7g876Athy-wNRnrHGg_Hpm1NzEsH_blm7ffsiTWe2JY97o-st_7E6qB8_HGx-n4Fr4_h5S8OQTDR
 ## 8. Relational Database Schema
 
 The relational schema presents the logical structure of the database, including:
