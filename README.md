@@ -122,8 +122,7 @@ entities, their attributes, and the relationships between them.
 
 **ER Diagram:**
 
-<img width="1326" height="2690" alt="mermaid-diagram (1)" src="https://github.com/user-attachments/assets/02795505-995f-49b8-a320-df3eedbbdd8f" />
-
+02-er-diagram/ER Diagram.png
 
 ## 8. Relational Database Schema
 
