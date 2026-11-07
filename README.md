@@ -116,8 +116,11 @@ The following deliverables constitute the assessment portfolio:
 | Project Report | Consolidated academic documentation |
 
 ## 7. Entity Relationship Diagram (ERD)
-erDiagram
 
+The diagram below illustrates the eight entities, their attributes, primary keys, foreign keys, and relationships in the Student Management System.
+
+```mermaid
+erDiagram
     DEPARTMENTS {
         int department_id PK
         varchar department_name
@@ -174,22 +177,12 @@ erDiagram
     DEPARTMENTS ||--o{ STUDENTS : has
     DEPARTMENTS ||--o{ LECTURERS : employs
     DEPARTMENTS ||--o{ COURSES : offers
-
     COURSES ||--o{ COURSE_OFFERINGS : scheduled_as
     SEMESTERS ||--o{ COURSE_OFFERINGS : contains
     LECTURERS ||--o{ COURSE_OFFERINGS : teaches
-
     STUDENTS ||--o{ ENROLLMENTS : registers
     COURSE_OFFERINGS ||--o{ ENROLLMENTS : receives
-
     ENROLLMENTS ||--o| RESULTS : generates
-
-This section presents the conceptual database model, illustrating the identified 
-entities, their attributes, and the relationships between them.
-
-**ER Diagram:**
-
-02-er-diagram/ER Diagram.png
 
 ## 8. Relational Database Schema
 
