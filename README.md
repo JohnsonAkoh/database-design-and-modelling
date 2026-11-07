@@ -116,7 +116,7 @@ The following deliverables constitute the assessment portfolio:
 | Project Report | Consolidated academic documentation |
 
 ## 7. Entity Relationship Diagram (ERD)
-
+https://github.com/JohnsonAkoh/database-design-and-modelling/blob/0c1d5a02f0876d9ea7f61750ed17b1c8b07a663a/02-er-diagram/ER%20Diagram.png
 ## 8. Relational Database Schema
 
 The relational schema presents the logical structure of the database, including:
