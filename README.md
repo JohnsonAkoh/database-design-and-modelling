@@ -116,7 +116,7 @@ The following deliverables constitute the assessment portfolio:
 | Project Report | Consolidated academic documentation |
 
 ## 7. Entity Relationship Diagram (ERD)
-<iframe src="https://mermaid.live/embed?theme=redux-color&look=classic&mode=light#pako:eNqtVduO2yAQ_RWL5-QH_FZtSFUlm6x8eVlZshBMbFQMEeBVV0n-vXg3joltLFUqT8ZzZuYwzBkuiCoGKEagN5xUmjSFLmTk1ga__UiyV3zI0ujS_-wWlzZicCbaNiBtyVn0tvPtH0TTmmgfI0kDPeTWf6RZvpmPbmzLFkP3AD-ub4eGcBHlu2Xa292E0x6_ZHmCkxlSAqhtNegwqwfiv9N6OeZJikek-qhUtdpA2d1jgNgdYbkVMM5NNTBuy1Zya_6ZV4pfcZrNlstAA8YuleuBCJWLUMKg4bQ0YAxXMlCW8rjd4uTX4ecMC3U6geayCrPwq7fdLZ1iavVbYqY6-JAc9_uAgkBqJcS8gkYamCb2j_VsZcSCH7vbT4glOM33c6Q0mFYECD0THmUFyhsiIkOVnr1KN1jYM4-5MXO9rtfqMgyGOKqJWQAOao2dts5CfS6hexHF3-UzY3E9wbymit2xamCtAFYOdIbWD_tRJS3h0kynS9jHAnHZzGRI3j38nordfVW8a08TVETAjQL_GJL41i-H66NF4qgCCdp10R2NVqjSnKHY6hZWqAHthprbokuBbO3kUqC4QG6otH_WVAmlC7QqkFDq95eBCuK0TAt0c4HORL4r1fSxtGqrGsUnIozbteeud--P0jfk9hf5Uxcs" width="100%" height="480" style="border:0" loading="lazy" title="Mermaid diagram" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+
 ## 8. Relational Database Schema
 
 The relational schema presents the logical structure of the database, including:
