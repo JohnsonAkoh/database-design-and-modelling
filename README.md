@@ -12,7 +12,6 @@ Database Management System: PostgreSQL
 Database Administration Tool: pgAdmin
 
 **Author:** Johnson Abraham Akoh  
-**Project Status:** In Progress
 
 
 ## 1. Project Overview
