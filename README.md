@@ -15,7 +15,6 @@ Database Administration Tool: pgAdmin
 **Project Status:** In Progress
 
 
-
 ## 1. Project Overview
 
 This project demonstrates the application of database design and modelling principles 
@@ -55,14 +54,41 @@ The major objectives are to:
 
 ## 4. Case Study Description
 
-**Selected Case Study:** [Insert your approved case study title]
+**Selected Case Study:**University Student Management System
 
-This section describes the selected organisation or business scenario,
-its operational activities, information management requirements, and the
-database challenges that the proposed system is designed to address.
+The Student Management System is a relational database solution
+designed to manage academic and administrative information within
+a higher education institution.
 
-The case study provides the foundation for identifying database entities, 
-attributes, relationships, and business rules.
+The system provides a structured approach to managing student
+records, academic departments, lecturers, courses, semesters,
+course offerings, student enrolments, and academic results.
+
+The proposed database addresses common information management
+challenges, including data duplication, inconsistent student
+records, inefficient information retrieval, and difficulties
+in maintaining accurate academic records.
+
+The database is designed around eight principal entities:
+
+1. Departments
+2. Students
+3. Lecturers
+4. Courses
+5. Semesters
+6. Course Offerings
+7. Enrollments
+8. Results
+
+The design uses relational database principles, primary keys,
+foreign keys, and integrity constraints to establish relationships
+between the entities and maintain data consistency.
+
+PostgreSQL is selected as the database management system, while
+pgAdmin is used for database administration and implementation.
+
+The case study provides the foundation for the conceptual,
+logical, and physical database design presented in this portfolio.
 
 ## 5. Database Design and Modelling Methodology
 
