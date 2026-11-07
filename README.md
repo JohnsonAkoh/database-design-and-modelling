@@ -116,7 +116,73 @@ The following deliverables constitute the assessment portfolio:
 | Project Report | Consolidated academic documentation |
 
 ## 7. Entity Relationship Diagram (ERD)
-(Student Management System ER Diagram](02-er-diagram/er-diagram.png)
+erDiagram
+
+    DEPARTMENTS {
+        int department_id PK
+        varchar department_name
+    }
+
+    STUDENTS {
+        int student_id PK
+        varchar student_name
+        varchar email UK
+        int department_id FK
+    }
+
+    LECTURERS {
+        int lecturer_id PK
+        varchar lecturer_name
+        varchar email UK
+        int department_id FK
+    }
+
+    COURSES {
+        varchar course_code PK
+        varchar course_title
+        int credit_units
+        int department_id FK
+    }
+
+    SEMESTERS {
+        int semester_id PK
+        varchar semester_name
+        varchar academic_session
+    }
+
+    COURSE_OFFERINGS {
+        int offering_id PK
+        varchar course_code FK
+        int semester_id FK
+        int lecturer_id FK
+    }
+
+    ENROLLMENTS {
+        int enrollment_id PK
+        int student_id FK
+        int offering_id FK
+        date enrollment_date
+    }
+
+    RESULTS {
+        int result_id PK
+        int enrollment_id FK
+        decimal score
+        varchar grade
+    }
+
+    DEPARTMENTS ||--o{ STUDENTS : has
+    DEPARTMENTS ||--o{ LECTURERS : employs
+    DEPARTMENTS ||--o{ COURSES : offers
+
+    COURSES ||--o{ COURSE_OFFERINGS : scheduled_as
+    SEMESTERS ||--o{ COURSE_OFFERINGS : contains
+    LECTURERS ||--o{ COURSE_OFFERINGS : teaches
+
+    STUDENTS ||--o{ ENROLLMENTS : registers
+    COURSE_OFFERINGS ||--o{ ENROLLMENTS : receives
+
+    ENROLLMENTS ||--o| RESULTS : generates
 
 This section presents the conceptual database model, illustrating the identified 
 entities, their attributes, and the relationships between them.
